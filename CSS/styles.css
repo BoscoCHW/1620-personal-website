@@ -1,19 +1,79 @@
-/* https://coolors.co/555b6e-89b0ae-bee3db-faf9f9-ffd6ba */
 
 * {
-    width: 40rem;
-
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
 }
+
 body {
-    background-color: #E4F1EF;
+    background-color: #E5DADA;
+    padding: 1rem;
 }
 
-h1, h3 {
-    color: #2E5266;
+nav {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.5rem;
+    border: 0.2rem solid black;
+    background-color: aliceblue;
+    padding: inherit;
+    /* float: left; */
 }
 
-p {
-    color: #29283E;
+nav ul {
+    list-style-type: none;
+    /* border: 0.1rem solid black; */
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 0.5rem;
+}
+
+a:link {
+    color: #002642;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #02040F;
+}
+
+a:hover {
+    color: #E59500;
+}
+
+h1, h2, h3 {
+    color: #002642;
+    font-family: 'Lato', sans-serif;
+}
+
+p, ol {
+    color: #02040F;
+    font-family: 'Noto Serif', serif;
+}
+
+section {
+    padding: inherit;
+}
+
+div {
+    margin: 0rem 0rem 1rem;
+    /* border: 2px solid black; */
+    /* padding: 1rem 0rem; */
+}
+
+.self-intro h1, .self-intro h3, .courses h1 {
+    margin: inherit;
+    /* padding: 1rem 0rem; */
+}
+
+div.courses ol {
+    list-style-position: inside;
 }
 
 img {
