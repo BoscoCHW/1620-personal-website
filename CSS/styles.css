@@ -1,5 +1,9 @@
 /* https://coolors.co/555b6e-89b0ae-bee3db-faf9f9-ffd6ba */
 
+* {
+    width: 40rem;
+
+}
 body {
     background-color: #E4F1EF;
 }
@@ -13,5 +17,5 @@ p {
 }
 
 img {
-    width: 50%
+    width: 70%;
 }
